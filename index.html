@@ -18,11 +18,15 @@
         <h1><span class="header-first-letter">N</span>obuo &nbsp;<span class="header-first-letter">U</span>ematsu</h1>
     </header>
     <main>
-      <section>
+      <section id="main-portrait">
         <figure>
-          <img src="./images/NB-fullscreen.png" alt="">
-          <figcaption>example text</figcaption>
-        </figure>
+          <picture>
+            <source media="(max-width: 799px)" srcset="./images/NB-480w.jpg">
+            <source media="(min-width: 800px)" srcset="./images/NB-800w.jpg">
+            <img src="./images/NB-800w.jpg" alt="Nobuo Uematsu main picture">
+            <figcaption>Japanese composer of <span>Final Fantasy</span> game series</figcaption>
+          </picture>
+        </figure>        
       </section>
     </main>
     <footer>

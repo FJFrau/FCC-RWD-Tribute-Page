@@ -12,16 +12,14 @@ body{
 
 header{
   width: 100%;
-  min-width: max-content;
-  padding: 1rem 0 0.5rem;
-  border-bottom: 0.3rem solid #9c3c35;
+  padding: 1.5rem;
   background-color: #220d0c;
 }
 
 h1{
-  color: white;
+  color: #f9edec;
   text-align: center;
-  font: 1.5rem 'Aboreto', cursive;
+  font: 1.5rem 'Aboreto', cursive, sans-serif;
   font-weight: 600;
 }
 
@@ -29,4 +27,28 @@ h1{
   color: #9c3c35;
   font-weight: 700;
   font-size: 2.5rem;
+}
+
+#main-portrait{
+  background-image: linear-gradient(to top right, #040404, #1d1d1d);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  box-shadow: 0px 5px 8px #1d1d1d, 0px -5px 8px #1d1d1d;
+}
+
+#main-portrait img{
+  width: 100%;
+  max-width: 800px;
+}
+
+#main-portrait figcaption{
+  font: 1rem 'Aboreto', cursive, sans-serif;
+  color: #f9edec;
+  padding: 0.5rem;
+}
+
+#main-portrait figcaption span{
+  color: #cc473d;
+  
 }
