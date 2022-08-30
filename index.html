@@ -15,18 +15,36 @@
   </head>
   <body>
     <header>
-        <h1><span class="header-first-letter">N</span>obuo &nbsp;<span class="header-first-letter">U</span>ematsu</h1>
+        <h1><span class="header-first-letter">N</span>obuo <span class="header-first-letter">U</span>ematsu</h1>
     </header>
-    <main>
+    <main id="main">
       <section id="main-portrait">
-        <figure>
+        <figure id="img-div">
           <picture>
             <source media="(max-width: 799px)" srcset="./images/NB-480w.jpg">
             <source media="(min-width: 800px)" srcset="./images/NB-800w.jpg">
-            <img src="./images/NB-800w.jpg" alt="Nobuo Uematsu main picture">
-            <figcaption>Japanese composer of <span>Final Fantasy</span> game series</figcaption>
+            <img id="image" src="./images/NB-800w.jpg" alt="Nobuo Uematsu main picture">
+            <figcaption id="img-caption">Composer of <span>Final Fantasy</span> series</figcaption>
           </picture>
         </figure>        
+      </section>
+      <section id="tribute-info">
+        <details>
+          <summary><h2>Time Line</h2></summary>
+            <div id="timeline-container">
+              <div class="timeline-event">
+                <time class="date-event" datetime="1987-12">1987</time>
+                <figure class="img-event">
+                  <picture>
+                    <source media="(max-width: 479px)" srcset="./images/Logo_Final_Fantasy_I_200PX.webp">
+                    <source media="(min-width: 480px)" srcset="./images/Logo_Final_Fantasy_I_480PX.webp">
+                    <img src="./images/Logo_Final_Fantasy_I.webp" alt="Final Fantasy videogame cover">
+                  </picture>
+                  <iframe src="https://open.spotify.com/embed/track/26ClwNQ6dTyDtezjWMBJYs?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </figure>
+              </div>
+            </div>
+        </details>
       </section>
     </main>
     <footer>

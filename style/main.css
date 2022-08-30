@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  list-style: none;
 }
 
 body{
@@ -19,8 +18,20 @@ header{
 h1{
   color: #f9edec;
   text-align: center;
-  font: 1.5rem 'Aboreto', cursive, sans-serif;
+  font: 1.5rem 'Aboreto', cursive, 'Lucida Sans Unicode';
   font-weight: 600;
+}
+
+details{
+  position: relative;
+  width: 100%;
+  margin: 2.5rem auto;
+  padding: 1rem;
+}
+
+summary{
+  color: #220d0c;
+  text-align: center
 }
 
 .header-first-letter{
@@ -37,18 +48,82 @@ h1{
   box-shadow: 0px 5px 8px #1d1d1d, 0px -5px 8px #1d1d1d;
 }
 
-#main-portrait img{
-  width: 100%;
-  max-width: 800px;
-}
-
 #main-portrait figcaption{
-  font: 1rem 'Aboreto', cursive, sans-serif;
+  font: 1rem 'Aboreto', cursive, 'Lucida Sans Unicode';
   color: #f9edec;
   padding: 0.5rem;
 }
 
 #main-portrait figcaption span{
   color: #cc473d;
+  padding: 0 0.3rem;
+}
+
+#img-div{
+  max-width: 800px;
+  position: relative;
+  margin:0 auto;
+}
+
+#image{
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5%;
+  margin: 0 auto;
+  display: block;
+}
+
+#tribute-info{
+  width: 100%;
   
+}
+
+#tribute-info h2{
+  display: inline-block;
+  font: 1rem 'Aboreto', cursive, 'Lucida Sans Unicode';
+  line-height: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+#timeline-container{
+  background-color: white;
+  border-radius: 5px;
+  max-width: 480px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.timeline-event{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.timeline-event img{
+  border-radius: 5px;
+}
+
+.date-event{
+  color: #f9edec;
+  background-color: #102c2e;
+  display: inline-block;
+  width: 100%;
+  min-width: 200px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+}
+
+.img-event{
+  width: 100%;
+  min-width: 200px;
+  text-align: center;
+  background-color: white;
+}
+
+.img-event img{
+  transform: scale(0.8)
 }
