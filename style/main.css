@@ -25,8 +25,8 @@ h1{
 details{
   position: relative;
   width: 100%;
-  margin: 2.5rem auto;
-  padding: 1rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
 }
 
 summary{
@@ -38,11 +38,72 @@ iframe{
   min-width: 200px;
 }
 
+abbr{
+  color: #cc473d;
+}
+
 .header-first-letter{
   color: #9c3c35;
   font-weight: 700;
   font-size: 2.5rem;
 }
+
+.p_bio{
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans';
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  color: black;
+  margin: 1rem auto;
+  text-align: center;
+  background-color: #f2dbd9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  min-width: 200px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  height: fit-content;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.p_bio a{
+  color: #9c3c35;
+  text-decoration: underline;
+}
+
+.socialmedia-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  
+}
+
+.socialmedia-container-item{
+  margin: 0 0.7rem;
+  border-radius: 50%;
+}
+
+.socialmedia-container-item > img{
+padding-top: 0.2rem;
+width: 48px;
+}
+
+.filter-green:hover{
+  filter: invert(64%) sepia(100%) saturate(401%) hue-rotate(83deg) brightness(90%) contrast(92%);
+}
+
+.filter-blue:hover{
+  filter: invert(62%) sepia(51%) saturate(6458%) hue-rotate(181deg) brightness(101%) contrast(88%);
+}
+
+.filter-orange:hover{
+  filter: invert(30%) sepia(100%) saturate(992%) hue-rotate(354deg) brightness(110%) contrast(106%);
+}
+
+
 
 #main-portrait{
   background-image: linear-gradient(to top right, #040404, #1d1d1d);
@@ -50,6 +111,7 @@ iframe{
   margin: 0 auto;
   padding: 0 0.5rem;
   box-shadow: 0px 5px 8px #1d1d1d, 0px -5px 8px #1d1d1d;
+  margin-bottom: 3rem;
 }
 
 #main-portrait figcaption{
@@ -88,14 +150,14 @@ iframe{
   line-height: 1rem;
   font-size: 1.2rem;
   font-weight: 800;
-  padding-bottom: 1.5rem;
+  
 }
 
 #timeline-container{
   border-radius: 5px;
   max-width: 480px;
   text-align: center;
-  margin: 0 auto;
+  margin: 1.5rem auto 1rem auto;
 }
 
 .timeline-event{
